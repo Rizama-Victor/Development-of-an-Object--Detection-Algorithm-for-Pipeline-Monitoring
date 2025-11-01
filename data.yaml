@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['0 leaks', '1 pipes']
+
+roboflow:
+  workspace: advanced-engineering-and-innovation-group-aeirg
+  project: ptdf-project
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/advanced-engineering-and-innovation-group-aeirg/ptdf-project/dataset/1
