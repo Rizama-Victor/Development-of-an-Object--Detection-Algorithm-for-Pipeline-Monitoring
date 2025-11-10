@@ -7,7 +7,7 @@ This repository contains the implementation of the project titled _"Development 
 Pipeline systems are vital for transporting oil and gas but remain vulnerable to leaks and failures that threaten the environment. 
 Traditional monitoring techniques often lack real-time detection and predictive capabilities, leading to delayed responses and expensive damage. 
 To address these challenges, this project leverages computer vision and deep learning to enhance pipeline surveillance. 
-It focuses on developing an intelligent object detection model capable of extracting landmark features from images and UAV-acquired videos for real-time pipeline monitoring.
+It focuses on developing an intelligent object detection model capable of extracting landmark features from images and videos for real-time pipeline monitoring.
 
 ---
 
