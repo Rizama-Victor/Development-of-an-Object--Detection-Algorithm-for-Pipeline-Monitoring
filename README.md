@@ -135,5 +135,9 @@ The training pre-procedures for the model involved mounting the drive in a Googl
     <em> Fig 3: Confusion Matrix</em>
 </p>
 
+## 🔮Future Work
+
+The findings from this research highlighted the potential of deep learning methods specifically transfer learning in addressing challenges within the oil and gas sector, particularly for efficient pipeline leakage detection. However, limitations such as the difficulty in obtaining suitable crude oil pipeline images (both leaking and non-leaking) and the model’s reduced ability to generalize to unseen data during testing were encountered. Future studies should focus on improving model accuracy to enhance real-world performance.
+
 ## 📌 Note
 Please kindly note that this README file is a summarized version of the full implementation of this research. Dataset and Model Weights can be provided upon request.
