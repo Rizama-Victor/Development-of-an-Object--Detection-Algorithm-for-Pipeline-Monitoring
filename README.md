@@ -38,16 +38,14 @@ It focuses on developing an intelligent object detection model capable of extrac
 
 The detection of pipeline leaks was achieved using a deep learning approach that involved transfer learning. The process began with capturing or obtaining images of pipelines with and without using cameras, followed by preprocessing steps like data augmentation and cleaning. During training, a pre-trained neural network specifically YOLOv5s was fine-tuned on a custom dataset of pipeline images to automatically learn and identify visual patterns that indicated leaks, such as changes in texture, color, or shape. Next, post-processing techniques such as confidence thresholding and non-maximum suppression were then applied to improve detection accuracy and reliability.
 
----
-
 YOLOv5 was selected as the core deep learning architecture for this project because:
 
 - YOLOv5 treats object detection as a single regression task, allowing it to predict bounding boxes and class probabilities in one forward pass.
 - It eliminates the multiple processing stages required in traditional models like R-CNN, Fast R-CNN, and Faster R-CNN.
 - It balances speed and accuracy making it capable of detecting leaks of varying sizes and in complex environments.
 
----
-
 ### Data Acquisition
 
-The dataset used for this project initially consisted of 1,908 images of both leaking and non-leaking pipes collected from sources like Roboflow and Google Datasets. However, additional images were later gathered from platforms such as Kaggle and through web scraping, expanding the dataset to 10,000 images. Including non-leaking (negative) pipeline images was essential in helping the model accurately distinguish between normal and leaking pipelines in a bid to improve its overall accuracy and reliability.
+The dataset used for this project initially consisted of 1,908 images of both leaking and non-leaking pipes collected from sources like Roboflow and Google Datasets. However, additional images were later gathered from platforms such as Kaggle and through web scraping, expanding the dataset amount to 10,000 images. Including non-leaking (negative) pipeline images was essential in helping the model accurately distinguish between normal and leaking pipelines in a bid to improve its overall accuracy and reliability.
+
+### Data Preprocessing and Preparation
