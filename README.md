@@ -19,3 +19,29 @@ It focuses on developing an intelligent object detection model capable of extrac
 ---
 
 ## ⚙️ Tools and Technologies Used
+
+| Tool/Libraries | Purpose in the Project |
+|--------------------|-----------------------|
+| Python | Used as the main programming language for developing and training the computer vision model, and the algorithm. |
+| OpenCV | Used for handling images, image processing, and video frame extraction. |
+| YOLOv5 | Implemented for the real-time pipeline leakage detection and classification. |
+| Ultralytics | Provided the implementation of YOLO used for both training and inferencing with the YOLO-based model for the pipeline leakage detection and classification. |
+| Pytorch | Used for model training and performance evaluation. |
+| Google Colab | Provided the virtual environment and computational resources such as GPU support for running and training the model. |
+| Roboflow | Used for hosting the dataset and performing data pre-processing and preparation. |
+| Display | Used for displaying inferenced images, training results and test images in the program notebook. |
+| Image | Used for creating python objects representing an image. |
+
+---
+
+## 🏗️ Model Building and Development
+
+The detection of pipeline leaks was achieved using a deep learning approach that involved transfer learning. The process began with capturing or obtaining images of pipelines with and without using cameras, followed by preprocessing steps like data augmentation and cleaning. During training, a pre-trained neural network specifically YOLOv5s was fine-tuned on a custom dataset of pipeline images to automatically learn and identify visual patterns that indicated leaks, such as changes in texture, color, or shape. Next, post-processing techniques such as confidence thresholding and non-maximum suppression were then applied to improve detection accuracy and reliability.
+
+---
+
+YOLOv5 was selected as the core deep learning architecture for this project because:
+
+- YOLO treats object detection as a single regression task, allowing it to predict bounding boxes and class probabilities in one forward pass.
+- It eliminates the multiple processing stages required in traditional models like R-CNN, Fast R-CNN, and Faster R-CNN.
+- It balances speed and accuracy making it capable of detecting leaks of varying sizes and in complex environments.
