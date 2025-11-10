@@ -42,6 +42,12 @@ The detection of pipeline leaks was achieved using a deep learning approach that
 
 YOLOv5 was selected as the core deep learning architecture for this project because:
 
-- YOLO treats object detection as a single regression task, allowing it to predict bounding boxes and class probabilities in one forward pass.
+- YOLOv5 treats object detection as a single regression task, allowing it to predict bounding boxes and class probabilities in one forward pass.
 - It eliminates the multiple processing stages required in traditional models like R-CNN, Fast R-CNN, and Faster R-CNN.
 - It balances speed and accuracy making it capable of detecting leaks of varying sizes and in complex environments.
+
+---
+
+### Data Acquisition
+
+The dataset used for this project initially consisted of 1,908 images of both leaking and non-leaking pipes collected from sources like Roboflow and Google Datasets. However, additional images were later gathered from platforms such as Kaggle and through web scraping, expanding the dataset to 10,000 images. Including non-leaking (negative) pipeline images was essential in helping the model accurately distinguish between normal and leaking pipelines in a bid to improve its overall accuracy and reliability.
