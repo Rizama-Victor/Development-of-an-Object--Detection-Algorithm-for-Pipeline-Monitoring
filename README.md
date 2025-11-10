@@ -113,3 +113,27 @@ The training pre-procedures for the model involved mounting the drive in a Googl
 | **F1-Score**    | 0.720     | Highlighted the model’s effective trade-off between precision and recall.                               |
 | **Box Loss**    | 0.031     | Indicated accurate bounding box predictions with minimal errors.                                        |
 | **Object Loss** | 0.016     | Showed the model reliably recognized the presence of pipeline leaks.                                    |
+
+<p align="center">
+  <img src="Test_Image_1.png" alt="Detection Results for Test Image 1" width="200" />
+  <img src="Test_Image_3.png" alt="Detection Results for Test Image 2" width="200" />
+  <img src="Test_Image_5.jpg" alt="Detection Results for Test Image 3" width="200" /> 
+  <img src="Test_Image_2.png" alt="Detection Results for Test Image 4" width="200" />
+    <br>
+    <em> Fig 1: Detection Results for Pipes (With and Without Leaks) </em>
+</p>
+
+<p align="center">
+    <img src="results.png" alt="The Model's Result Summary" width="1500"/>
+    <br>
+    <em> Fig 2: The Model's Result Summary</em>
+</p>
+
+<p align="center">
+    <img src="confusion_matrix.png" alt="The Confusion matrix" width="1500"/>
+    <br>
+    <em> Fig 3: Confusion Matrix</em>
+</p>
+
+## 📌 Note
+Please kindly note that this README file is a summarized version of the full implementation of this research. Dataset and Model Weights can be provided upon request.
