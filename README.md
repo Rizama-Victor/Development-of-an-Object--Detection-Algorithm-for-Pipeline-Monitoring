@@ -1,4 +1,4 @@
-# Development of an Object Detection Algorithm for Crude Oil Pipeline Leakage Detection 
+# Development of an Object Detection Algorithm for Crude Oil Pipeline 🛢️ Leakage Detection 
 This repository contains the implementation of the research project titled _"Development of an Object Detection Algorithm for Crude Oil Pipeline Leakage Detection"_, at the Advanced Engineering and Innovation Research Group (AEIRG), Department of Mechatronics Engineering (DOME), Federal University of Technology Minna (FUTMinna), Nigeria.
 
 ---
@@ -141,3 +141,6 @@ The findings from this research highlighted the potential of deep learning metho
 
 ## 📌 Note
 Please kindly note that this README file is a summarized version of the full implementation of this research. Dataset and Model Weights can be provided upon request.
+
+---
+
