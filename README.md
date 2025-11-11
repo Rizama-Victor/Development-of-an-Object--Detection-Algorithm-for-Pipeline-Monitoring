@@ -97,7 +97,7 @@ The training pre-procedures for the model involved mounting the drive in a Googl
 | Image Input Size | 640 x 640 |
 | Total Number of Classes | 2 |
 | Batch Size | 16 |
-| Activation Function | Leaky ReLU and Sigmoid Activation Function. |
+| Activation Function | Leaky ReLU (middle layers) and Sigmoid Activation Function (final layers). |
 | Momentum | 0.937 |
 | Optimizer | Stochastic Gradient Descent (SGD) |
 
